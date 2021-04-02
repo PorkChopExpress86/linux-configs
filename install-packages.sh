@@ -3,7 +3,7 @@
 sudo apt update && sudo apt dist-upgrade -y && sudo apt autoremove -y
 
 # Common packages
-sudo apt install build-essential dkms g++ gdb net-tools whois nmap hexchat git curlsoftware-properties-common apt-transport-https wget vlc tlp tlp-rdw -y
+sudo apt install build-essential dkms g++ gdb net-tools whois nmap hexchat git curl software-properties-common apt-transport-https wget vlc tlp tlp-rdw -y
 
 #PPAs
 sudo add-apt-repository ppa:qbittorrent-team/qbittorrent-stable -y
